@@ -9,7 +9,7 @@ This repository contains the libraries and scripts used for evaluating phrase lo
 
 I found existing evaluation scripts for the phrase localization task difficult to setup and use. I only really needed to evaluate my output, not to run other people's models so that I can evaluate my output! Thus, this library was born! 
 
-I wrote it in simple, standard Python, so the script does not need any other dependencies. You only need to give the evaluate method a list of ground truth bounding boxes and a list of predicted bounding boxes, and it will return the accuracy. I hope having a simple and standard evaluation script for the task will make life easier for everyone!
+I wrote it in simple, standard Python, so the script does not need any other dependencies. You only need to provide the script a list of ground truth bounding boxes and a list of predicted bounding boxes, and it will return the accuracy. I hope having a simple and standard evaluation script for the task will make life easier for everyone!
 
 
 ### Using the library
@@ -25,7 +25,7 @@ An example script is available as ``demo.py``.
 
 If you use this evaluation script, please cite the following work:
 
-- Josiah Wang and Lucia Specia (2019). Phrase Localization Without Training on Phrases. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+Josiah Wang and Lucia Specia (2019). **Phrase Localization Without Training on Phrases**. In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*.
 
 	@InProceedings{WangSpecia:2019,
 	author    = {Wang, Josiah and Specia, Lucia},
